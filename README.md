@@ -241,6 +241,8 @@ python3 codes/temperature-IoT-sensor.py
 ```
 
 Modify the variable `FLASK_KEY` within the `CONFIG.py` with a random string.
+Modify the variable `EMAIL_MANAGER` within the `CONFIG.py` with a random email.
+Modify the variable `EMAIL_PROTOTYPE` within the `CONFIG.py` with a random email.
 
 Run Flask with the command:
 ```bash
