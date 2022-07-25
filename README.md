@@ -49,7 +49,7 @@ There are two kind of IoT sensors:
   * The *emailErrorFunc* lambda function is triggered when a message arrives in the *errors* queue. This function sends an email to the manager of the company notifying him about the errors detected by the sensor.
 * There is a **temperature sensors placed in the room:** they measure the `temperature` in the room.
   * This sensor every hour measures the temperature in the room and send a message to the relative queue containing the temperature in that moment.
-  * The *temperatureFunc* lambda function is triggered when a message arrives in the *temperature* queue. This function turn on the air conditioning in cold mode if it's cold, in hot mode if it is hot, otherwise is shown a message indicating the optimum temperature.
+  * The *temperatureFunc* lambda function is triggered when a message arrives in the *temperature* queue. This function turn on the air conditioning in cold mode if it's hot, in hot mode if it is cold, otherwise is shown a message indicating the optimum temperature.
   * The function takes the old and the new version of the Item modified and enables the air condition if the temperature is too high. 
 * There is also an another lambda function, that is called *checkAbsencesFunc*, this function is trigged every month on the first day, it interact with database, retrieving all the informations about the employees, to make sure they have not exceeded the maximum allowed threshold. If the maximum allowed for an employee has been exceeded, an email will be sent to the manager.
 
