@@ -1,9 +1,5 @@
 # IoT-Company
 IoT Company is a smart company that helps the company manager to better supervise its employees.
-## Info project
-First name: *Simone* <br />
-Last name: *Giglio* <br />
-Registration number: *0522501292* <br />
 # Index
 * [Overview](#Overview)
 * [Implementation Overview](#Implementation-Overview)
